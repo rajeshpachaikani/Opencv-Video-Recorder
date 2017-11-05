@@ -1,3 +1,11 @@
+#
+#
+#
+
+
+
+
+
 import cv2
 import numpy as np
 
@@ -29,47 +37,3 @@ while 1:
     cv2.imshow("ViewPort", img)
 
 cv2.destroyAllWindows()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import cv2
-# import numpy as np
-#
-# cam = cv2.VideoCapture(0)
-#
-# while True:
-#     b, img = cam.read()
-#     if b:
-#         cv2.imshow("Window",img)
-#     else:
-#         print("The camera is not working!")
-#         break
-#     key = cv2.waitKey(1)&0xFF
-#     if key==ord('q'):
-#         break
-#     elif key==ord('c'):
-#         cv2.im
-# cv2.destroyAllWindows()
-# cam.release()
-#
-# cv2.VideoWriter()
